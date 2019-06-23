@@ -18,7 +18,7 @@ services:
     command: su -c "bundle exec rails s -p 3000 -b 0.0.0.0" app
     environment:
       - RAILS_ENV=development
-      - DATABSE_HOST=db
+      - DATABASE_HOST=db
       - MYSQL_ROOT_PASSWORD
       - MYSQL_DATABASE
     ports:
